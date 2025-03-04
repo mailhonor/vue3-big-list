@@ -1,0 +1,44 @@
+{
+  "name": "vue3-big-list",
+  "version": "0.1.1",
+  "description": "巨大列表显示",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/linuxmail/vue3-big-list.git"
+  },
+  "keywords": [
+    "超大",
+    "差多",
+    "条目"
+  ],
+  "author": {
+    "name": "linuxmail",
+    "email": "eli960@qq.com",
+    "url": "https://gitee.com/linuxmail/vue3-big-list"
+  },
+  "license": "MIT",
+  "homepage": "https://gitee.com/linuxmail/vue3-big-list/",
+  "bugs": {
+    "url": "https://gitee.com/linuxmail/vue3-big-list/issues"
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "node script/build.js",
+    "dev": "vite -c demo/vite.config.ts"
+  },
+  "peerDependencies": {
+    "mousetrap": ">1.6.0",
+    "vue": ">3.4.21"
+  },
+  "devDependencies": {
+    "@types/mousetrap": "^1.6.15",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.3",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vue-tsc": "^2.2.2"
+  },
+  "files": [
+    "dist/"
+  ]
+}

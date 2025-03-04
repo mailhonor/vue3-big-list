@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": false,
+    "outDir": "dist/",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "lib": ["ESNext", "Dom"],
+    "allowJs": true,
+    "alwaysStrict": false,
+    "noEmitOnError": true,
+    "checkJs": false,
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/index.ts"],
+  "exclude": ["./node_modules/**", "./dist/**"],
+}
