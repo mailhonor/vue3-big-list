@@ -1,25 +1,26 @@
 {
   "name": "vue3-big-list",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "巨大列表显示",
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/linuxmail/vue3-big-list.git"
+    "url": "git+https://github.com/mailhonor/vue3-big-list.git"
   },
   "keywords": [
     "超大",
     "差多",
-    "条目"
+    "条目",
+    "快捷键"
   ],
   "author": {
     "name": "linuxmail",
     "email": "eli960@qq.com",
-    "url": "https://gitee.com/linuxmail/vue3-big-list"
+    "url": "https://github.com/mailhonor/vue3-big-list"
   },
   "license": "MIT",
-  "homepage": "https://gitee.com/linuxmail/vue3-big-list/",
+  "homepage": "https://github.com/mailhonor/vue3-big-list/",
   "bugs": {
-    "url": "https://gitee.com/linuxmail/vue3-big-list/issues"
+    "url": "https://github.com/mailhonor/vue3-big-list/issues"
   },
   "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
